@@ -1,0 +1,30 @@
+@mixin fix-cont($width, $padding) {
+	max-width: $width;
+	padding: 0 $padding;
+}
+
+@mixin flex-box($flow, $content) {
+	display: flex;
+	flex-flow: $flow;
+	justify-content: $content;
+}
+
+@mixin font($size, $weight) {
+	font-size: $size;
+	font-weight: $weight;
+}
+
+
+
+@mixin transform( $translate, $rotate, $scale) {
+	transform: translate($translate) rotate($rotate) scale($scale) ;
+}
+
+@mixin profitsBackground($direction) {
+	background-image: linear-gradient($direction, rgba(20,25,31, 0.001%), rgba(84,89,86, 0.1%));
+}
+
+@mixin profitsBackgroundHover($direction) {
+	background-image: linear-gradient($direction, rgba(20,25,31, 0.001%), rgba(84,89,86, 0.2%));
+}
+

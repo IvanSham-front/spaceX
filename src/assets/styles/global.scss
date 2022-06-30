@@ -1,0 +1,59 @@
+
+body {
+	min-width: 320px;    
+	margin: 0;
+	font-family: "MuseoSansCyrl", "Arial",  sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: normal;
+}
+
+body.modal-active {
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.App {
+	background: url('../img/background.jpg'), center, no-repeat;
+	background-size: 1760px 600px;
+	background-position-x: 50%;
+	@media (max-width: 786px) {
+		background-position-x: 30%;
+	}
+	@media (max-width: 552px) {
+		background-position-x: 27%;
+    background-size: 999px 370px;
+	}
+}
+
+.fixed-container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 65px;
+	@media (max-width: 1200px) {
+		max-width: 990px;
+	}
+	@media (max-width: 786px) {
+		max-width: 786px;
+	}
+	@media (max-width: 552px) {
+		min-width: 320px;
+		max-width: 550px;
+		padding: 0 30px;
+	}
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 ;
+  border:0 ;
+  height: 1px; 
+  width: 1px; 
+  overflow: hidden;
+}

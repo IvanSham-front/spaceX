@@ -1,0 +1,9 @@
+$whiteColor: #ffffff;
+$borderCOlor: #353338;
+$navHoverColor: #929292;
+$profitsBorder: rgb(84,89,86);
+
+$btnBlinkGradient: linear-gradient(to bottom, #0a213e 0%, #285d9e calc(100% - 6px), white 6px),
+                    linear-gradient(to bottom, #ffffff  6px, #285d9e 0%, #0a213e 100%),
+                    linear-gradient(to left, #ffffff  6px, #285d9e 0%, #0a213e 100%),
+                    linear-gradient(to left, #0a213e 0%, #285d9e calc(100% - 6px), #ffffff 6px);
